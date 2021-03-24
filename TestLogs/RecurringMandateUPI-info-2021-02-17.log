@@ -1,0 +1,1540 @@
+[INFO ] 2021-02-17 13:28:05.150 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34ZYZN24RR","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+[INFO ] 2021-02-17 13:28:08.627 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34ZYZN24RR",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34ZYZN24RR",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104813474773"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 13:28:09.766 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 13:28:09.811 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34PYEO8KGY","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+[INFO ] 2021-02-17 13:28:10.147 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34PYEO8KGY",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34PYEO8KGY",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104813474774"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 13:28:10.668 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 13:28:10.680 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk344NPJQKX0","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+[INFO ] 2021-02-17 13:28:10.991 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk344NPJQKX0",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk344NPJQKX0",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104813474775"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 13:28:11.238 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 13:28:11.251 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34DK2Q4O1K","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+[INFO ] 2021-02-17 13:28:11.620 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34DK2Q4O1K",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34DK2Q4O1K",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104813474776"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 13:28:11.866 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 13:57:18.034 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk340L28IEN5","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+[INFO ] 2021-02-17 13:57:19.813 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk340L28IEN5",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk340L28IEN5",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104813474789"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 13:57:20.631 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 13:57:20.653 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34EYMZ45PX","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+[INFO ] 2021-02-17 13:57:20.885 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34EYMZ45PX",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34EYMZ45PX",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104813474790"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 13:57:21.158 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 13:57:21.173 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34P1DUI0LL","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+[INFO ] 2021-02-17 13:57:21.398 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34P1DUI0LL",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34P1DUI0LL",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104813474791"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 13:57:21.630 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 13:57:21.644 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34MBFIEBY7","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+[INFO ] 2021-02-17 13:57:21.892 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34MBFIEBY7",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34MBFIEBY7",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104813474792"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 13:57:22.185 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 14:08:32.676 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk346Q154RLQ","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":6.78}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":6.78}}
+[INFO ] 2021-02-17 14:08:34.945 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk346Q154RLQ",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk346Q154RLQ",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 6.78,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104814474802"
+    },
+    "amount": {
+        "netAmount": 6.78
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 14:08:35.650 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 14:08:35.672 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34HSCNMFJY","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":7.89}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":7.89}}
+[INFO ] 2021-02-17 14:08:35.910 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34HSCNMFJY",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34HSCNMFJY",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 7.89,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104814474803"
+    },
+    "amount": {
+        "netAmount": 7.89
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 14:08:36.216 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 14:08:36.228 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34JELAW62P","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+[INFO ] 2021-02-17 14:08:36.490 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34JELAW62P",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34JELAW62P",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104814474804"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 14:08:36.725 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 14:08:36.737 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34X0PVBJNS","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+[INFO ] 2021-02-17 14:08:36.975 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34X0PVBJNS",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34X0PVBJNS",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104814474805"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 14:08:37.236 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 14:26:48.356 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34TWUMSSQ8","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":6.78}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":6.78}}
+[INFO ] 2021-02-17 14:26:49.976 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34TWUMSSQ8",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34TWUMSSQ8",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 6.78,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104814474831"
+    },
+    "amount": {
+        "netAmount": 6.78
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 14:26:50.709 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 14:26:50.731 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk340V2ZEVSX","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":7.89}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":7.89}}
+[INFO ] 2021-02-17 14:26:51.063 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk340V2ZEVSX",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk340V2ZEVSX",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 7.89,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104814474832"
+    },
+    "amount": {
+        "netAmount": 7.89
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 14:26:51.333 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 14:26:51.349 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34I9TWLXPN","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+[INFO ] 2021-02-17 14:26:51.634 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34I9TWLXPN",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34I9TWLXPN",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104814474833"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 14:26:51.934 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 14:26:51.950 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34S8IRSLDE","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+[INFO ] 2021-02-17 14:26:52.208 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34S8IRSLDE",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34S8IRSLDE",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104814474834"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 14:26:52.627 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 14:52:37.785 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34IFOBVUII","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":6.78}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":6.78}}
+[INFO ] 2021-02-17 14:52:39.411 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34IFOBVUII",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34IFOBVUII",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 6.78,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104814474850"
+    },
+    "amount": {
+        "netAmount": 6.78
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 14:52:40.180 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 14:52:40.196 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34FJ5H2NZX","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":7.89}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":7.89}}
+[INFO ] 2021-02-17 14:52:40.447 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34FJ5H2NZX",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34FJ5H2NZX",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 7.89,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104814474851"
+    },
+    "amount": {
+        "netAmount": 7.89
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 14:52:40.699 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 14:52:40.706 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk344TRM8W8M","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+[INFO ] 2021-02-17 14:52:40.938 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk344TRM8W8M",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk344TRM8W8M",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104814474852"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 14:52:41.193 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 14:52:41.207 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk341WERLZSL","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+[INFO ] 2021-02-17 14:52:41.451 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk341WERLZSL",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk341WERLZSL",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104814474853"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 14:52:41.703 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 19:17:20.510 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34MRI8HG3C","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":6.78}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":6.78}}
+[INFO ] 2021-02-17 19:17:22.768 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34MRI8HG3C",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34MRI8HG3C",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 6.78,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104819474909"
+    },
+    "amount": {
+        "netAmount": 6.78
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 19:17:23.712 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 19:17:23.890 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34I4KHBETK","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":7.89}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":7.89}}
+[INFO ] 2021-02-17 19:17:24.329 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34I4KHBETK",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34I4KHBETK",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 7.89,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104819474910"
+    },
+    "amount": {
+        "netAmount": 7.89
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 19:17:24.608 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 19:17:24.623 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34WW70E2EA","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+[INFO ] 2021-02-17 19:17:24.884 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34WW70E2EA",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34WW70E2EA",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104819474911"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 19:17:25.195 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 19:17:25.207 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34VELCXXSK","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+[INFO ] 2021-02-17 19:17:25.485 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34VELCXXSK",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34VELCXXSK",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104819474912"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 19:17:25.764 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 19:23:07.992 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34L96OCSSU","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":6.78}},"payer":{"name":"Payer Name","vpa":"cash@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":6.78}}
+[INFO ] 2021-02-17 19:23:10.082 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34L96OCSSU",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34L96OCSSU",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 6.78,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104819474915"
+    },
+    "amount": {
+        "netAmount": 6.78
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "cash@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 19:23:11.222 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 19:23:11.238 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34HT2LYG0I","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":7.89}},"payer":{"name":"Payer Name","vpa":"cash@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":7.89}}
+[INFO ] 2021-02-17 19:23:11.842 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34HT2LYG0I",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34HT2LYG0I",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 7.89,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104819474916"
+    },
+    "amount": {
+        "netAmount": 7.89
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "cash@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 19:23:12.541 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 19:23:12.559 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34BYXM8SHO","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+[INFO ] 2021-02-17 19:23:13.032 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34BYXM8SHO",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34BYXM8SHO",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104819474917"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 19:23:13.416 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+[INFO ] 2021-02-17 19:23:13.428 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34W1HDUPA1","initiatingEntityTimestamp":"2021-02-17T00:00:00.00Z","created":"2021-02-17T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-17T23:59:59.999Z","scheduledEnd":"2021-02-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"Before","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"7977578842@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+[INFO ] 2021-02-17 19:23:13.907 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34W1HDUPA1",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34W1HDUPA1",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-25T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "Before",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-17T00:00:00.000Z",
+        "created": "2021-02-17T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104819474918"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "7977578842@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+[INFO ] 2021-02-17 19:23:14.380 [main] ApiComponent - Response received against Mandate Check Status :{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}

@@ -1,0 +1,2260 @@
+[INFO ] 2021-02-12 12:00:49.990 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34FI9OZHE4","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-02-20T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":12.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":12.0}}
+[INFO ] 2021-02-12 12:00:53.703 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34FI9OZHE4",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34FI9OZHE4",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-20T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 12.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104312067792"
+    },
+    "amount": {
+        "netAmount": 12.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 12:00:54.988 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34FI9OZHE4",
+    "status": "SUCCESS",
+    "errCode": "MD200",
+    "statusDesc": "Mandate request initiated successfully",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "12.0",
+        "endDate": "2021-02-20T23:59:59.999Z",
+        "custRefNo": "104312067792",
+        "errCode": "MD200",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34FI9OZHE4",
+        "status": "PENDING",
+        "frequency": "DAILY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 12:00:55.042 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk3439W90XTZ","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":10,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-08-11T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"11","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":29.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":29.0}}
+[INFO ] 2021-02-12 12:00:55.471 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk3439W90XTZ",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk3439W90XTZ",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 10,
+            "scheduledEnd": "2021-08-11T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 11,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 29.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104312067793"
+    },
+    "amount": {
+        "netAmount": 29.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 12:00:55.801 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk3439W90XTZ",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "29.0",
+        "endDate": "2021-08-11T23:59:59.999Z",
+        "custRefNo": "104312067793",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk3439W90XTZ",
+        "frequency": "BIMONTHLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 12:00:55.850 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34ZTN6BW0R","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":9,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-02-28T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"11","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":98.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":98.0}}
+[INFO ] 2021-02-12 12:00:56.333 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34ZTN6BW0R",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34ZTN6BW0R",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 9,
+            "scheduledEnd": "2021-02-28T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 11,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 98.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104312067794"
+    },
+    "amount": {
+        "netAmount": 98.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 12:00:56.681 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34ZTN6BW0R",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "98.0",
+        "endDate": "2021-02-28T23:59:59.999Z",
+        "custRefNo": "104312067794",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34ZTN6BW0R",
+        "frequency": "FORTNIGHTLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 12:00:56.718 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk3455S75QLE","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":7,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2022-02-13T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"11","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":13.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":13.0}}
+[INFO ] 2021-02-12 12:00:57.010 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk3455S75QLE",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk3455S75QLE",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 7,
+            "scheduledEnd": "2022-02-13T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 11,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 13.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104312067795"
+    },
+    "amount": {
+        "netAmount": 13.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 12:00:57.332 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk3455S75QLE",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "13.0",
+        "endDate": "2022-02-13T23:59:59.999Z",
+        "custRefNo": "104312067795",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk3455S75QLE",
+        "frequency": "YEARLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 12:00:57.359 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34MTMTCUYG","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":6,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2022-02-12T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"11","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":91.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":91.0}}
+[INFO ] 2021-02-12 12:00:57.699 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34MTMTCUYG",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34MTMTCUYG",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 6,
+            "scheduledEnd": "2022-02-12T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 11,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 91.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104312067796"
+    },
+    "amount": {
+        "netAmount": 91.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 12:00:58.013 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34MTMTCUYG",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "91.0",
+        "endDate": "2022-02-12T23:59:59.999Z",
+        "custRefNo": "104312067796",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34MTMTCUYG",
+        "frequency": "HALFYEARLY",
+        "amt_rule": "EXACT"
+    }
+}
+[INFO ] 2021-02-12 16:04:32.892 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk3436A5RTJ2","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-02-20T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":12.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":12.0}}
+[INFO ] 2021-02-12 16:04:36.095 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk3436A5RTJ2",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk3436A5RTJ2",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-20T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 12.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067866"
+    },
+    "amount": {
+        "netAmount": 12.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:04:37.357 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk3436A5RTJ2",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "12.0",
+        "endDate": "2021-02-20T23:59:59.999Z",
+        "custRefNo": "104316067866",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk3436A5RTJ2",
+        "frequency": "DAILY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 16:04:37.398 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk348Z8OEPJV","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":10,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-08-11T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"11","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":29.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":29.0}}
+[INFO ] 2021-02-12 16:04:37.806 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk348Z8OEPJV",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk348Z8OEPJV",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 10,
+            "scheduledEnd": "2021-08-11T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 11,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 29.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067867"
+    },
+    "amount": {
+        "netAmount": 29.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:04:38.126 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk348Z8OEPJV",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "29.0",
+        "endDate": "2021-08-11T23:59:59.999Z",
+        "custRefNo": "104316067867",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk348Z8OEPJV",
+        "frequency": "BIMONTHLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 16:04:38.155 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk3442CXDIUX","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":9,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-02-28T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"11","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":98.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":98.0}}
+[INFO ] 2021-02-12 16:04:38.459 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk3442CXDIUX",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk3442CXDIUX",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 9,
+            "scheduledEnd": "2021-02-28T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 11,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 98.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067868"
+    },
+    "amount": {
+        "netAmount": 98.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:04:38.791 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk3442CXDIUX",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "98.0",
+        "endDate": "2021-02-28T23:59:59.999Z",
+        "custRefNo": "104316067868",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk3442CXDIUX",
+        "frequency": "FORTNIGHTLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 16:04:38.812 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34DTCA9CRQ","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":7,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2022-02-13T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"11","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":13.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":13.0}}
+[INFO ] 2021-02-12 16:04:39.142 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34DTCA9CRQ",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34DTCA9CRQ",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 7,
+            "scheduledEnd": "2022-02-13T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 11,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 13.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067870"
+    },
+    "amount": {
+        "netAmount": 13.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:04:39.565 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34DTCA9CRQ",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "13.0",
+        "endDate": "2022-02-13T23:59:59.999Z",
+        "custRefNo": "104316067870",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34DTCA9CRQ",
+        "frequency": "YEARLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 16:04:39.587 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34B5VBE1DG","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":6,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2022-02-12T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"11","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":91.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":91.0}}
+[INFO ] 2021-02-12 16:04:39.851 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34B5VBE1DG",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34B5VBE1DG",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 6,
+            "scheduledEnd": "2022-02-12T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 11,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 91.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067871"
+    },
+    "amount": {
+        "netAmount": 91.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:04:40.190 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34B5VBE1DG",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "91.0",
+        "endDate": "2022-02-12T23:59:59.999Z",
+        "custRefNo": "104316067871",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34B5VBE1DG",
+        "frequency": "HALFYEARLY",
+        "amt_rule": "EXACT"
+    }
+}
+[INFO ] 2021-02-12 16:32:53.120 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34XXDM58N8","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-02-20T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":12.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":12.0}}
+[INFO ] 2021-02-12 16:32:56.001 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34XXDM58N8",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34XXDM58N8",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-20T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 12.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067888"
+    },
+    "amount": {
+        "netAmount": 12.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:32:57.182 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34XXDM58N8",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "12.0",
+        "endDate": "2021-02-20T23:59:59.999Z",
+        "custRefNo": "104316067888",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34XXDM58N8",
+        "frequency": "DAILY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 16:32:57.219 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34IG145UMV","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":10,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-08-11T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"11","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":29.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":29.0}}
+[INFO ] 2021-02-12 16:32:57.503 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34IG145UMV",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34IG145UMV",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 10,
+            "scheduledEnd": "2021-08-11T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 11,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 29.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067889"
+    },
+    "amount": {
+        "netAmount": 29.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:32:57.816 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34IG145UMV",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "29.0",
+        "endDate": "2021-08-11T23:59:59.999Z",
+        "custRefNo": "104316067889",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34IG145UMV",
+        "frequency": "BIMONTHLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 16:32:57.842 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk342GMKLQIH","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":9,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-02-28T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"11","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":98.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":98.0}}
+[INFO ] 2021-02-12 16:32:58.137 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk342GMKLQIH",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk342GMKLQIH",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 9,
+            "scheduledEnd": "2021-02-28T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 11,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 98.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067890"
+    },
+    "amount": {
+        "netAmount": 98.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:32:58.444 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk342GMKLQIH",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "98.0",
+        "endDate": "2021-02-28T23:59:59.999Z",
+        "custRefNo": "104316067890",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk342GMKLQIH",
+        "frequency": "FORTNIGHTLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 16:32:58.470 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34GP2YY1IY","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":7,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2022-02-13T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"11","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":13.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":13.0}}
+[INFO ] 2021-02-12 16:32:58.756 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34GP2YY1IY",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34GP2YY1IY",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 7,
+            "scheduledEnd": "2022-02-13T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 11,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 13.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067891"
+    },
+    "amount": {
+        "netAmount": 13.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:32:59.084 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34GP2YY1IY",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "13.0",
+        "endDate": "2022-02-13T23:59:59.999Z",
+        "custRefNo": "104316067891",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34GP2YY1IY",
+        "frequency": "YEARLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 16:32:59.115 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34CQBAS32U","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":6,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2022-02-12T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"11","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":91.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":91.0}}
+[INFO ] 2021-02-12 16:32:59.410 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34CQBAS32U",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34CQBAS32U",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 6,
+            "scheduledEnd": "2022-02-12T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 11,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 91.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067892"
+    },
+    "amount": {
+        "netAmount": 91.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:32:59.698 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34CQBAS32U",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "91.0",
+        "endDate": "2022-02-12T23:59:59.999Z",
+        "custRefNo": "104316067892",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34CQBAS32U",
+        "frequency": "HALFYEARLY",
+        "amt_rule": "EXACT"
+    }
+}
+[INFO ] 2021-02-12 16:40:23.561 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34C4EZ51QR","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-02-20T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":12.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":12.0}}
+[INFO ] 2021-02-12 16:40:26.426 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34C4EZ51QR",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34C4EZ51QR",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-20T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 12.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067898"
+    },
+    "amount": {
+        "netAmount": 12.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:40:27.940 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34C4EZ51QR",
+    "status": "SUCCESS",
+    "errCode": "MD200",
+    "statusDesc": "Mandate request initiated successfully",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "12.0",
+        "endDate": "2021-02-20T23:59:59.999Z",
+        "custRefNo": "104316067898",
+        "errCode": "MD200",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34C4EZ51QR",
+        "status": "PENDING",
+        "frequency": "DAILY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 16:40:27.984 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34F00QGF22","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":10,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-08-11T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"12","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":29.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":29.0}}
+[INFO ] 2021-02-12 16:40:28.316 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34F00QGF22",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34F00QGF22",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 10,
+            "scheduledEnd": "2021-08-11T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 12,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 29.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067899"
+    },
+    "amount": {
+        "netAmount": 29.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:40:28.624 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34F00QGF22",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "29.0",
+        "endDate": "2021-08-11T23:59:59.999Z",
+        "custRefNo": "104316067899",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34F00QGF22",
+        "frequency": "BIMONTHLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 16:40:28.656 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34JVOV8ANY","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":9,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-02-28T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"12","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":98.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":98.0}}
+[INFO ] 2021-02-12 16:40:28.968 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34JVOV8ANY",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34JVOV8ANY",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 9,
+            "scheduledEnd": "2021-02-28T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 12,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 98.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067900"
+    },
+    "amount": {
+        "netAmount": 98.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:40:29.249 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34JVOV8ANY",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "98.0",
+        "endDate": "2021-02-28T23:59:59.999Z",
+        "custRefNo": "104316067900",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34JVOV8ANY",
+        "frequency": "FORTNIGHTLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 16:40:29.279 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34QVA2PETC","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":7,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2022-02-13T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"12","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":13.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":13.0}}
+[INFO ] 2021-02-12 16:40:29.755 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34QVA2PETC",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34QVA2PETC",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 7,
+            "scheduledEnd": "2022-02-13T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 12,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 13.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067901"
+    },
+    "amount": {
+        "netAmount": 13.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:40:30.098 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34QVA2PETC",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "13.0",
+        "endDate": "2022-02-13T23:59:59.999Z",
+        "custRefNo": "104316067901",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34QVA2PETC",
+        "frequency": "YEARLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 16:40:30.130 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34I95YC6RR","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":6,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2022-02-12T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"12","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":91.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":91.0}}
+[INFO ] 2021-02-12 16:40:30.670 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34I95YC6RR",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34I95YC6RR",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 6,
+            "scheduledEnd": "2022-02-12T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 12,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 91.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067902"
+    },
+    "amount": {
+        "netAmount": 91.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:40:30.973 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34I95YC6RR",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "91.0",
+        "endDate": "2022-02-12T23:59:59.999Z",
+        "custRefNo": "104316067902",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34I95YC6RR",
+        "frequency": "HALFYEARLY",
+        "amt_rule": "EXACT"
+    }
+}
+[INFO ] 2021-02-12 16:55:04.958 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34LL1UGJ3Q","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-02-20T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":12.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":12.0}}
+[INFO ] 2021-02-12 16:55:08.386 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34LL1UGJ3Q",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34LL1UGJ3Q",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-20T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 12.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067921"
+    },
+    "amount": {
+        "netAmount": 12.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:55:09.821 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34LL1UGJ3Q",
+    "status": "SUCCESS",
+    "errCode": "MD200",
+    "statusDesc": "Mandate request initiated successfully",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "12.0",
+        "endDate": "2021-02-20T23:59:59.999Z",
+        "custRefNo": "104316067921",
+        "errCode": "MD200",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34LL1UGJ3Q",
+        "status": "PENDING",
+        "frequency": "DAILY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 16:55:09.878 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk343B5DTMHD","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":10,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-08-11T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"12","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":29.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":29.0}}
+[INFO ] 2021-02-12 16:55:10.245 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk343B5DTMHD",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk343B5DTMHD",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 10,
+            "scheduledEnd": "2021-08-11T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 12,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 29.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067922"
+    },
+    "amount": {
+        "netAmount": 29.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:55:10.599 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk343B5DTMHD",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "29.0",
+        "endDate": "2021-08-11T23:59:59.999Z",
+        "custRefNo": "104316067922",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk343B5DTMHD",
+        "frequency": "BIMONTHLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 16:55:10.645 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34258ISCF0","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":9,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-02-28T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"12","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":98.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":98.0}}
+[INFO ] 2021-02-12 16:55:10.919 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34258ISCF0",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34258ISCF0",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 9,
+            "scheduledEnd": "2021-02-28T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 12,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 98.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067923"
+    },
+    "amount": {
+        "netAmount": 98.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:55:11.325 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34258ISCF0",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "98.0",
+        "endDate": "2021-02-28T23:59:59.999Z",
+        "custRefNo": "104316067923",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34258ISCF0",
+        "frequency": "FORTNIGHTLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 16:55:11.369 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34J080C0F9","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":7,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2022-02-13T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"12","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":13.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":13.0}}
+[INFO ] 2021-02-12 16:55:11.649 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34J080C0F9",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34J080C0F9",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 7,
+            "scheduledEnd": "2022-02-13T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 12,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 13.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067924"
+    },
+    "amount": {
+        "netAmount": 13.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:55:11.991 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34J080C0F9",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "13.0",
+        "endDate": "2022-02-13T23:59:59.999Z",
+        "custRefNo": "104316067924",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34J080C0F9",
+        "frequency": "YEARLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 16:55:12.021 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34FAXSC8XU","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":6,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2022-02-12T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"12","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":91.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":91.0}}
+[INFO ] 2021-02-12 16:55:12.324 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34FAXSC8XU",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34FAXSC8XU",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 6,
+            "scheduledEnd": "2022-02-12T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 12,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 91.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104316067925"
+    },
+    "amount": {
+        "netAmount": 91.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 16:55:12.636 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34FAXSC8XU",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "91.0",
+        "endDate": "2022-02-12T23:59:59.999Z",
+        "custRefNo": "104316067925",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34FAXSC8XU",
+        "frequency": "HALFYEARLY",
+        "amt_rule": "EXACT"
+    }
+}
+[INFO ] 2021-02-12 17:04:58.107 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34NNUW1LV6","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-02-20T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":5.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":5.0}}
+[INFO ] 2021-02-12 17:05:00.806 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34NNUW1LV6",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34NNUW1LV6",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-20T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 5.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104317067935"
+    },
+    "amount": {
+        "netAmount": 5.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 17:05:02.102 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34NNUW1LV6",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "5.0",
+        "endDate": "2021-02-20T23:59:59.999Z",
+        "custRefNo": "104317067935",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34NNUW1LV6",
+        "frequency": "DAILY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 17:05:02.136 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34N05CI8CZ","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":10,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-08-11T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"12","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":29.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":29.0}}
+[INFO ] 2021-02-12 17:05:02.472 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34N05CI8CZ",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34N05CI8CZ",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 10,
+            "scheduledEnd": "2021-08-11T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 12,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 29.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104317067936"
+    },
+    "amount": {
+        "netAmount": 29.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 17:05:02.750 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34N05CI8CZ",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "29.0",
+        "endDate": "2021-08-11T23:59:59.999Z",
+        "custRefNo": "104317067936",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34N05CI8CZ",
+        "frequency": "BIMONTHLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 17:05:02.780 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34YCSCDDBW","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":9,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-02-28T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"12","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":7.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":7.0}}
+[INFO ] 2021-02-12 17:05:03.089 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34YCSCDDBW",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34YCSCDDBW",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 9,
+            "scheduledEnd": "2021-02-28T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 12,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 7.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104317067937"
+    },
+    "amount": {
+        "netAmount": 7.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 17:05:03.479 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34YCSCDDBW",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "7.0",
+        "endDate": "2021-02-28T23:59:59.999Z",
+        "custRefNo": "104317067937",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34YCSCDDBW",
+        "frequency": "FORTNIGHTLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 17:05:03.510 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34VYELE9X6","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":7,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2022-02-13T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"12","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":13.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":13.0}}
+[INFO ] 2021-02-12 17:05:03.802 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34VYELE9X6",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34VYELE9X6",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 7,
+            "scheduledEnd": "2022-02-13T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 12,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 13.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104317067938"
+    },
+    "amount": {
+        "netAmount": 13.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 17:05:04.105 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34VYELE9X6",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "13.0",
+        "endDate": "2022-02-13T23:59:59.999Z",
+        "custRefNo": "104317067938",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34VYELE9X6",
+        "frequency": "YEARLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 17:05:04.130 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34IOOJAXND","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":6,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2022-02-12T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"12","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":91.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":91.0}}
+[INFO ] 2021-02-12 17:05:04.430 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34IOOJAXND",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34IOOJAXND",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 6,
+            "scheduledEnd": "2022-02-12T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 12,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 91.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104317067939"
+    },
+    "amount": {
+        "netAmount": 91.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 17:05:04.738 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34IOOJAXND",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "91.0",
+        "endDate": "2022-02-12T23:59:59.999Z",
+        "custRefNo": "104317067939",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34IOOJAXND",
+        "frequency": "HALFYEARLY",
+        "amt_rule": "EXACT"
+    }
+}
+[INFO ] 2021-02-12 17:11:14.244 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk345Q0GP3UF","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-02-20T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":5.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":5.0}}
+[INFO ] 2021-02-12 17:11:17.261 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk345Q0GP3UF",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk345Q0GP3UF",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-02-20T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 5.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104317067943"
+    },
+    "amount": {
+        "netAmount": 5.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 17:11:18.723 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk345Q0GP3UF",
+    "status": "SUCCESS",
+    "errCode": "MD200",
+    "statusDesc": "Mandate request initiated successfully",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "5.0",
+        "endDate": "2021-02-20T23:59:59.999Z",
+        "custRefNo": "104317067943",
+        "errCode": "MD200",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk345Q0GP3UF",
+        "status": "PENDING",
+        "frequency": "DAILY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 17:11:18.788 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk3452OSWDEM","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":10,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-08-11T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"12","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":29.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":29.0}}
+[INFO ] 2021-02-12 17:11:19.070 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk3452OSWDEM",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk3452OSWDEM",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 10,
+            "scheduledEnd": "2021-08-11T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 12,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 29.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104317067944"
+    },
+    "amount": {
+        "netAmount": 29.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 17:11:19.389 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk3452OSWDEM",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "29.0",
+        "endDate": "2021-08-11T23:59:59.999Z",
+        "custRefNo": "104317067944",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk3452OSWDEM",
+        "frequency": "BIMONTHLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 17:11:19.427 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk343P9AEFNW","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":9,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2021-02-28T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"12","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":7.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":7.0}}
+[INFO ] 2021-02-12 17:11:19.692 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk343P9AEFNW",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk343P9AEFNW",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 9,
+            "scheduledEnd": "2021-02-28T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 12,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 7.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104317067945"
+    },
+    "amount": {
+        "netAmount": 7.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 17:11:20.031 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk343P9AEFNW",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "7.0",
+        "endDate": "2021-02-28T23:59:59.999Z",
+        "custRefNo": "104317067945",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk343P9AEFNW",
+        "frequency": "FORTNIGHTLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 17:11:20.057 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34EK8CCTUI","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":7,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2022-02-13T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"12","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":13.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":13.0}}
+[INFO ] 2021-02-12 17:11:20.352 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34EK8CCTUI",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34EK8CCTUI",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 7,
+            "scheduledEnd": "2022-02-13T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 12,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 13.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104317067946"
+    },
+    "amount": {
+        "netAmount": 13.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 17:11:20.668 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34EK8CCTUI",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "13.0",
+        "endDate": "2022-02-13T23:59:59.999Z",
+        "custRefNo": "104317067946",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34EK8CCTUI",
+        "frequency": "YEARLY",
+        "amt_rule": "MAX"
+    }
+}
+[INFO ] 2021-02-12 17:11:20.693 [main] ApiComponent - Create Recurring Mandate By Payee Api. Payload : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk348MVJ05AB","initiatingEntityTimestamp":"2021-02-12T00:00:00.00Z","created":"2021-02-12T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":6,"scheduledAt":"2021-02-12T23:59:59.999Z","scheduledEnd":"2022-02-12T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"12","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":91.0}},"payer":{"name":"Payer Name","vpa":"sitreg@jio"},"payee":{"vpa":"10232760@jiopartner"},"amount":{"netAmount":91.0}}
+[INFO ] 2021-02-12 17:11:21.016 [main] ApiComponent - Response received against CreateRecMandateByPayee :{
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk348MVJ05AB",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk348MVJ05AB",
+        "standingInstruction": {
+            "scheduledAt": "2021-02-12T23:59:59.999Z",
+            "frequency": 6,
+            "scheduledEnd": "2022-02-12T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 12,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 91.0,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-02-12T00:00:00.000Z",
+        "created": "2021-02-12T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "104317067947"
+    },
+    "amount": {
+        "netAmount": 91.0
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "sitreg@jio"
+    },
+    "payee": {
+        "vpa": "10232760@jiopartner"
+    }
+}
+[INFO ] 2021-02-12 17:11:21.316 [main] ApiComponent - Response received against Mandate Check Status :{
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk348MVJ05AB",
+    "status": "INITIATED",
+    "mandateDtls": {
+        "amount": "91.0",
+        "endDate": "2022-02-12T23:59:59.999Z",
+        "custRefNo": "104317067947",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-02-12T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk348MVJ05AB",
+        "frequency": "HALFYEARLY",
+        "amt_rule": "EXACT"
+    }
+}
