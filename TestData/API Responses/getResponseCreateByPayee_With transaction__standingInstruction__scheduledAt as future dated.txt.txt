@@ -1,0 +1,3012 @@
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34UZRNHPNX","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":4,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-29T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"24","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=39113bf34d2a8fa2
+Date=Fri, 26 Feb 2021 07:12:51 GMT
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk3435EXI7IL","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-07T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"3","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=ed02369d0098b7df
+Date=Fri, 26 Feb 2021 07:12:54 GMT
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk340ZYCX7TU","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":6,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-08-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"24","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=e268621f5100b715
+Date=Fri, 26 Feb 2021 07:12:57 GMT
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34WB0XN946","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":10,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-08-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"24","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=58117e5e819984d3
+Date=Fri, 26 Feb 2021 07:13:00 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34U1ASXNNX","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":9,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-14T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"24","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=90d930e546b8d903
+Date=Fri, 26 Feb 2021 07:13:06 GMT
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk3408A127JL","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":3,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-06T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=4d1c9371900c31dd
+Date=Fri, 26 Feb 2021 07:13:11 GMT
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34JA1DPRVI","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":4,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-29T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"20","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=a1b6fc8d2ce494e9
+Date=Fri, 26 Feb 2021 07:13:17 GMT
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34KEG6VNJ2","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-07T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=56a44492a9650b7e
+Date=Fri, 26 Feb 2021 07:13:19 GMT
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk345KALTFL7","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":5,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-08-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"24","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=cf7b82510aec80e7
+Date=Fri, 26 Feb 2021 07:13:23 GMT
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk345WPBC91D","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":6,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-08-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"24","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=ec14233e92e7ef3e
+Date=Fri, 26 Feb 2021 07:13:27 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34LSKEHRWJ","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":7,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-08-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"24","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=1528d58afbce1978
+Date=Fri, 26 Feb 2021 07:13:30 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34XUOIVIVC","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":10,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-08-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"24","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=8696b4a9a01a4621
+Date=Fri, 26 Feb 2021 07:13:33 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34XB4O0CS7","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":9,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-08-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"24","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=334bddd4a71ee777
+Date=Fri, 26 Feb 2021 07:13:36 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34GRTM2DKP","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":3,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-06T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"3","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=3fe0734fe5c2c3e8
+Date=Fri, 26 Feb 2021 07:13:39 GMT
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34MPLZNL89","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-07T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"3","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=e707390a16f3df31
+Date=Fri, 26 Feb 2021 07:13:43 GMT
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34OZK36EQ9","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":3,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-06T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=80489a0671722f8e
+Date=Fri, 26 Feb 2021 07:13:51 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34KWTFGQVI","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":9,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-08-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"20","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=519321ec2f0f44c2
+Date=Fri, 26 Feb 2021 07:13:56 GMT
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk3494TEJ91W","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":10,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-08-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"20","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=262160b63828cc22
+Date=Fri, 26 Feb 2021 07:13:59 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk344WB5F3E5","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":7,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-08-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"20","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=c449c175422fdc31
+Date=Fri, 26 Feb 2021 07:14:03 GMT
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34IVE2XWVK","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":6,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-08-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"20","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=8381ae068cb3230c
+Date=Fri, 26 Feb 2021 07:14:06 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34DQVV1VV5","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":5,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-08-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"20","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=02beea4c88f7f364
+Date=Fri, 26 Feb 2021 07:14:08 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk345KVL2X0H","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-07T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=7b9c7c641eb23c91
+Date=Fri, 26 Feb 2021 07:14:11 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34TV0LL9MH","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":4,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-29T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"20","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=6728598a462b3d6a
+Date=Fri, 26 Feb 2021 07:14:24 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34G7SOARH6","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":3,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-06T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"3","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=4749c752b82fc8b5
+Date=Fri, 26 Feb 2021 07:14:39 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34JQGUOK3X","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":4,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-29T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"20","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=3c16384c737ca841
+Date=Fri, 26 Feb 2021 07:14:45 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34DC4QUYIY","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-07T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"3","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=e8a34f632d923e88
+Date=Fri, 26 Feb 2021 07:14:54 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34SIHCL3SA","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":5,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-08-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"20","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=00b86d4bc124dd31
+Date=Fri, 26 Feb 2021 07:15:00 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34AUMY0KBR","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":6,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-08-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"20","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=d87c1a23337376ba
+Date=Fri, 26 Feb 2021 07:15:09 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34IFQMDJSS","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":7,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-08-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"20","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=3cea06dec6fb1c58
+Date=Fri, 26 Feb 2021 07:15:17 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk349TMRDWQG","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":10,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-08-25T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"20","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=04b93396e945fa6c
+Date=Fri, 26 Feb 2021 07:15:21 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk346JMOREXA","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":9,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-14T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"20","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=9d2787fd7aacb8e7
+Date=Fri, 26 Feb 2021 07:15:25 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34M0OJGL1F","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":9,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-14T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"6","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=443216701d6ea88a
+Date=Fri, 26 Feb 2021 07:15:31 GMT
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34RGNRFF13","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":10,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-14T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"6","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=d238cd8677428373
+Date=Fri, 26 Feb 2021 07:15:34 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk348HUAQC8F","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":7,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-29T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"6","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=410476dbbc30bb8e
+Date=Fri, 26 Feb 2021 07:15:37 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34Z17NSNR3","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":6,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-29T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"6","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=0dbf97b8f5fe3419
+Date=Fri, 26 Feb 2021 07:15:39 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk347SGWKY7J","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":5,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-29T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"6","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=95e4615c4978cbab
+Date=Fri, 26 Feb 2021 07:15:42 GMT
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk340CT14HSK","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-07T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"20","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=6b758f9f8924beec
+Date=Fri, 26 Feb 2021 07:15:45 GMT
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34KMREEF1I","initiatingEntityTimestamp":"2021-02-26T00:00:00.00Z","created":"2021-02-26T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":4,"scheduledAt":"2021-03-07T23:59:59.999Z","scheduledEnd":"2021-03-29T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"6","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=5c0747ea011f5e91
+Date=Fri, 26 Feb 2021 07:15:48 GMT
+Connection=close
+Content-Type=application/json
+Content-Length=52
+=============================================================
+Response Body : {
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34CPEFXHG2","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":4,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-04-08T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"24","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=35b219660983cb58
+Request-Time=22
+Date=Mon, 08 Mar 2021 12:03:01 GMT
+Content-Type=application/json
+Content-Length=952
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34CPEFXHG2",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34CPEFXHG2",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 4,
+            "scheduledEnd": "2021-04-08T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "AFTER",
+            "ruleRecurrenceValue": 24,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070638"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34PQ0O3U5C","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-03-17T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"3","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=5ba35fde35c677f5
+Request-Time=32
+Date=Mon, 08 Mar 2021 12:03:09 GMT
+Content-Type=application/json
+Content-Length=951
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34PQ0O3U5C",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34PQ0O3U5C",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-03-17T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "AFTER",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070649"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34FAP1Z4ZT","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":6,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-09-04T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"24","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=26c220248a701774
+Request-Time=24
+Date=Mon, 08 Mar 2021 12:03:16 GMT
+Content-Type=application/json
+Content-Length=952
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34FAP1Z4ZT",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34FAP1Z4ZT",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 6,
+            "scheduledEnd": "2021-09-04T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "AFTER",
+            "ruleRecurrenceValue": 24,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070660"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34A7D7FFUX","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":10,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-09-04T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"24","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=0e77b49d3a5eabac
+Request-Time=32
+Date=Mon, 08 Mar 2021 12:03:22 GMT
+Content-Type=application/json
+Content-Length=953
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34A7D7FFUX",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34A7D7FFUX",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 10,
+            "scheduledEnd": "2021-09-04T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "AFTER",
+            "ruleRecurrenceValue": 24,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070671"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34VDJRBC7N","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":9,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-03-24T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"24","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=6427c4201dbe4d30
+Request-Time=47
+Date=Mon, 08 Mar 2021 12:03:31 GMT
+Content-Type=application/json
+Content-Length=952
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34VDJRBC7N",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34VDJRBC7N",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 9,
+            "scheduledEnd": "2021-03-24T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "AFTER",
+            "ruleRecurrenceValue": 24,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070682"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk345BDD18Z9","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":3,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-03-16T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=f92799dc8ffd0d28
+Request-Time=30
+Date=Mon, 08 Mar 2021 12:03:37 GMT
+Content-Type=application/json
+Content-Length=949
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk345BDD18Z9",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk345BDD18Z9",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 3,
+            "scheduledEnd": "2021-03-16T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "AFTER",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070693"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34MJ7UIOZI","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":4,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-04-08T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"20","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=39cf4a4480c91868
+Request-Time=48
+Date=Mon, 08 Mar 2021 12:03:44 GMT
+Content-Type=application/json
+Content-Length=950
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34MJ7UIOZI",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34MJ7UIOZI",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 4,
+            "scheduledEnd": "2021-04-08T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "AFTER",
+            "ruleRecurrenceValue": 20,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070704"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk349722ECVL","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-03-17T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=6f3faf1c2781a11d
+Request-Time=37
+Date=Mon, 08 Mar 2021 12:03:51 GMT
+Content-Type=application/json
+Content-Length=949
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk349722ECVL",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk349722ECVL",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-03-17T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "AFTER",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070715"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk346RBPH6I4","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":5,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-09-04T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"24","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=6acbf308401db37f
+Request-Time=38
+Date=Mon, 08 Mar 2021 12:03:58 GMT
+Content-Type=application/json
+Content-Length=950
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk346RBPH6I4",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk346RBPH6I4",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 5,
+            "scheduledEnd": "2021-09-04T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "AFTER",
+            "ruleRecurrenceValue": 24,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070727"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk3484MG5Z1A","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":6,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-09-04T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"24","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=c5a3020b3dec102b
+Request-Time=37
+Date=Mon, 08 Mar 2021 12:04:04 GMT
+Content-Type=application/json
+Content-Length=950
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk3484MG5Z1A",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk3484MG5Z1A",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 6,
+            "scheduledEnd": "2021-09-04T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "AFTER",
+            "ruleRecurrenceValue": 24,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070737"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34FLWYILTY","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":7,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-09-04T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"24","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=715b419d128905de
+Request-Time=24
+Date=Mon, 08 Mar 2021 12:04:10 GMT
+Content-Type=application/json
+Content-Length=950
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34FLWYILTY",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34FLWYILTY",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 7,
+            "scheduledEnd": "2021-09-04T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "AFTER",
+            "ruleRecurrenceValue": 24,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070749"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34JOWXIFWS","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":10,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-09-04T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"24","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=7290dfe0c59dd054
+Request-Time=75
+Date=Mon, 08 Mar 2021 12:04:17 GMT
+Content-Type=application/json
+Content-Length=951
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34JOWXIFWS",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34JOWXIFWS",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 10,
+            "scheduledEnd": "2021-09-04T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "AFTER",
+            "ruleRecurrenceValue": 24,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070760"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34QJL6NIGH","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":9,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-09-04T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"24","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=e1de719c75331e5c
+Request-Time=44
+Date=Mon, 08 Mar 2021 12:04:25 GMT
+Content-Type=application/json
+Content-Length=950
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34QJL6NIGH",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34QJL6NIGH",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 9,
+            "scheduledEnd": "2021-09-04T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "AFTER",
+            "ruleRecurrenceValue": 24,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070771"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34Y42T7AL4","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":3,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-03-16T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"3","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=4dba79085e801abd
+Request-Time=43
+Date=Mon, 08 Mar 2021 12:04:31 GMT
+Content-Type=application/json
+Content-Length=952
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34Y42T7AL4",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34Y42T7AL4",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 3,
+            "scheduledEnd": "2021-03-16T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "BEFORE",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070782"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34N9THD7KU","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-03-17T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"3","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=0b0981291d24e452
+Request-Time=30
+Date=Mon, 08 Mar 2021 12:04:38 GMT
+Content-Type=application/json
+Content-Length=952
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34N9THD7KU",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34N9THD7KU",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-03-17T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "BEFORE",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070793"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34SAHN3XG6","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":3,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-03-16T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=99c13ca80ea31f41
+Request-Time=35
+Date=Mon, 08 Mar 2021 12:04:46 GMT
+Content-Type=application/json
+Content-Length=950
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34SAHN3XG6",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34SAHN3XG6",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 3,
+            "scheduledEnd": "2021-03-16T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "BEFORE",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070805"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk340OAM2FX4","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":9,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-09-04T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"20","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=2a01c4bd11184a45
+Request-Time=35
+Date=Mon, 08 Mar 2021 12:04:53 GMT
+Content-Type=application/json
+Content-Length=951
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk340OAM2FX4",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk340OAM2FX4",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 9,
+            "scheduledEnd": "2021-09-04T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "BEFORE",
+            "ruleRecurrenceValue": 20,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070816"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk3449I918SL","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":10,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-09-04T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"20","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=da859fa3a694cf48
+Request-Time=31
+Date=Mon, 08 Mar 2021 12:05:00 GMT
+Content-Type=application/json
+Content-Length=952
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk3449I918SL",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk3449I918SL",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 10,
+            "scheduledEnd": "2021-09-04T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "BEFORE",
+            "ruleRecurrenceValue": 20,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070827"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34AZQYPRZD","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":7,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-09-04T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"20","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=1097d01ddf8dbbf2
+Request-Time=51
+Date=Mon, 08 Mar 2021 12:05:06 GMT
+Content-Type=application/json
+Content-Length=951
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34AZQYPRZD",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34AZQYPRZD",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 7,
+            "scheduledEnd": "2021-09-04T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "BEFORE",
+            "ruleRecurrenceValue": 20,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070838"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34987HOHG2","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":6,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-09-04T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"20","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=4a5c99afbdf4e7ba
+Request-Time=33
+Date=Mon, 08 Mar 2021 12:05:13 GMT
+Content-Type=application/json
+Content-Length=951
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34987HOHG2",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34987HOHG2",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 6,
+            "scheduledEnd": "2021-09-04T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "BEFORE",
+            "ruleRecurrenceValue": 20,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070849"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34CC036O8U","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":5,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-09-04T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"20","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=669e232efaac7fd5
+Request-Time=33
+Date=Mon, 08 Mar 2021 12:05:19 GMT
+Content-Type=application/json
+Content-Length=951
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34CC036O8U",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34CC036O8U",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 5,
+            "scheduledEnd": "2021-09-04T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "BEFORE",
+            "ruleRecurrenceValue": 20,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070860"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34K90T4F01","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-03-17T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"3","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=1f92d040bc8917f4
+Request-Time=40
+Date=Mon, 08 Mar 2021 12:05:26 GMT
+Content-Type=application/json
+Content-Length=950
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34K90T4F01",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34K90T4F01",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-03-17T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "BEFORE",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070871"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34BJCFD2UE","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":4,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-04-08T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"BEFORE","ruleRecurrenceValue":"20","ruleAmount":"MAX","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=8344ebcb320ee57b
+Request-Time=41
+Date=Mon, 08 Mar 2021 12:05:33 GMT
+Content-Type=application/json
+Content-Length=951
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34BJCFD2UE",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34BJCFD2UE",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 4,
+            "scheduledEnd": "2021-04-08T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "BEFORE",
+            "ruleRecurrenceValue": 20,
+            "ruleAmount": "MAX",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070882"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34WQG5XMV3","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":3,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-03-16T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"3","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=cfbe34d1edd82c5f
+Request-Time=33
+Date=Mon, 08 Mar 2021 12:05:39 GMT
+Content-Type=application/json
+Content-Length=948
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34WQG5XMV3",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34WQG5XMV3",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 3,
+            "scheduledEnd": "2021-03-16T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070893"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk342S6C2AZN","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":4,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-04-08T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"20","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=e34defcf74bbe1f3
+Request-Time=42
+Date=Mon, 08 Mar 2021 12:05:46 GMT
+Content-Type=application/json
+Content-Length=949
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk342S6C2AZN",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk342S6C2AZN",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 4,
+            "scheduledEnd": "2021-04-08T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 20,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070904"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk343URU6NSR","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":2,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-03-17T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"3","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=62fe21363b003f2b
+Request-Time=32
+Date=Mon, 08 Mar 2021 12:05:53 GMT
+Content-Type=application/json
+Content-Length=948
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk343URU6NSR",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk343URU6NSR",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 2,
+            "scheduledEnd": "2021-03-17T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 3,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070915"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34YMU52YTM","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":5,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-09-04T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"20","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=c0d99a4f4276d34f
+Request-Time=59
+Date=Mon, 08 Mar 2021 12:05:59 GMT
+Content-Type=application/json
+Content-Length=949
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34YMU52YTM",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34YMU52YTM",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 5,
+            "scheduledEnd": "2021-09-04T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 20,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070926"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34FWLQB4MO","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":6,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-09-04T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"20","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=9144ed98eae87b2c
+Request-Time=20
+Date=Mon, 08 Mar 2021 12:06:10 GMT
+Content-Type=application/json
+Content-Length=949
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34FWLQB4MO",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34FWLQB4MO",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 6,
+            "scheduledEnd": "2021-09-04T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 20,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070937"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34IVUBR1K6","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":7,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-09-04T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"20","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=8e7a1521ddcfc843
+Request-Time=37
+Date=Mon, 08 Mar 2021 12:06:19 GMT
+Content-Type=application/json
+Content-Length=949
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34IVUBR1K6",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34IVUBR1K6",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 7,
+            "scheduledEnd": "2021-09-04T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 20,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070948"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOSTUtU5w5Ggmk87IfJmk34859472NI","initiatingEntityTimestamp":"2021-03-08T00:00:00.00Z","created":"2021-03-08T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":10,"scheduledAt":"2021-03-17T23:59:59.999Z","scheduledEnd":"2021-09-04T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"ON","ruleRecurrenceValue":"20","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=e88f34378d9b6ef0
+Request-Time=26
+Date=Mon, 08 Mar 2021 12:06:29 GMT
+Content-Type=application/json
+Content-Length=950
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOSTUtU5w5Ggmk87IfJmk34859472NI",
+        "idempotentKey": "JIOSTUtU5w5Ggmk87IfJmk34859472NI",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-17T23:59:59.999Z",
+            "frequency": 10,
+            "scheduledEnd": "2021-09-04T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "ON",
+            "ruleRecurrenceValue": 20,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-08T00:00:00.000Z",
+        "created": "2021-03-08T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "106717070959"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/process
+=============================================================
+Request Body : {"transaction":{"idempotentKey":"JIOM1UtU5w5Ggmk87IfJmk34W403YN4Y","initiatingEntityTimestamp":"2021-03-15T00:00:00.00Z","created":"2021-03-15T23:59:59.999Z","livemode":false,"currency":356,"expireAfter":"1440","method":{"type":473,"subType":589},"application":8008,"initiatingEntity":{"entityId":8008,"callbackUrl":"www.ggogle.com"},"invoice":"JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2","statementDescriptor":"Payment Initiate","description":"mandate remarks","mode":11,"standingInstruction":{"frequency":4,"scheduledAt":"2021-03-24T23:59:59.999Z","scheduledEnd":"2021-04-15T23:59:59.999Z","share":true,"revocable":true,"ruleRecurrence":"AFTER","ruleRecurrenceValue":"24","ruleAmount":"EXACT","blockFund":false,"ruleAmountValue":14.25}},"payer":{"name":"Payer Name","vpa":"preprodmandate@jio"},"payee":{"vpa":"billpayment@jiopartner"},"amount":{"netAmount":14.25}}
+=============================================================
+Headers : x-request-id=12441b3e2f017b7a
+Request-Time=25
+Date=Mon, 15 Mar 2021 12:38:28 GMT
+Content-Type=application/json
+Content-Length=952
+=============================================================
+Response Body : {
+    "transaction": {
+        "id": "JIOM1UtU5w5Ggmk87IfJmk34W403YN4Y",
+        "idempotentKey": "JIOM1UtU5w5Ggmk87IfJmk34W403YN4Y",
+        "standingInstruction": {
+            "scheduledAt": "2021-03-24T23:59:59.999Z",
+            "frequency": 4,
+            "scheduledEnd": "2021-04-15T23:59:59.999Z",
+            "share": true,
+            "revocable": true,
+            "ruleRecurrence": "AFTER",
+            "ruleRecurrenceValue": 24,
+            "ruleAmount": "EXACT",
+            "ruleAmountValue": 14.25,
+            "blockFund": false
+        },
+        "initiatingEntityTimestamp": "2021-03-15T00:00:00.000Z",
+        "created": "2021-03-15T23:59:59.999Z",
+        "currency": 356,
+        "description": "mandate remarks",
+        "livemode": false,
+        "mode": 11,
+        "method": {
+            "type": 473,
+            "subType": 589
+        },
+        "statementDescriptor": "Payment Initiate",
+        "status": "INITIATED",
+        "application": 8008,
+        "initiatingEntity": {
+            "entityId": 8008,
+            "callbackUrl": "www.ggogle.com"
+        },
+        "invoice": "JIOc0EerLccHof8w5xeZnd7h7ZvOMfHHbJ2",
+        "expireAfter": "1440",
+        "referenceNumber": "107418073077"
+    },
+    "amount": {
+        "netAmount": 14.25
+    },
+    "payer": {
+        "name": "Payer Name",
+        "vpa": "preprodmandate@jio"
+    },
+    "payee": {
+        "vpa": "billpayment@jiopartner"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+

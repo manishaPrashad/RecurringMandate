@@ -1,0 +1,1170 @@
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk342R3YUY1I
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=763b6cbf15f40084
+Request-Time=64
+Date=Mon, 08 Mar 2021 12:03:06 GMT
+Content-Type=application/json
+Content-Length=495
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk342R3YUY1I",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-04-08T23:59:59.999Z",
+        "custRefNo": "106717070644",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk342R3YUY1I",
+        "status": "FAILED",
+        "frequency": "MONTHLY",
+        "amt_rule": "EXACT"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34F6NWT6PC
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=c1ed9b4ba9d79646
+Request-Time=11
+Date=Mon, 08 Mar 2021 12:03:13 GMT
+Content-Type=application/json
+Content-Length=495
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34F6NWT6PC",
+    "status": "FAILED",
+    "errCode": "49",
+    "statusDesc": "Block fund flag is allowed only for one time mandate.",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-03-08T23:59:59.999Z",
+        "custRefNo": "106717070655",
+        "errCode": "49",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34F6NWT6PC",
+        "status": "FAILED",
+        "frequency": "DAILY",
+        "amt_rule": "EXACT"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34NLU3G5D2
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=46f7632d0524d147
+Request-Time=12
+Date=Mon, 08 Mar 2021 12:03:20 GMT
+Content-Type=application/json
+Content-Length=498
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34NLU3G5D2",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-09-04T23:59:59.999Z",
+        "custRefNo": "106717070666",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34NLU3G5D2",
+        "status": "FAILED",
+        "frequency": "HALFYEARLY",
+        "amt_rule": "EXACT"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk342DRCX1F9
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=ff475a25e70596e0
+Request-Time=21
+Date=Mon, 08 Mar 2021 12:03:27 GMT
+Content-Type=application/json
+Content-Length=497
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk342DRCX1F9",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-09-04T23:59:59.999Z",
+        "custRefNo": "106717070677",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk342DRCX1F9",
+        "status": "FAILED",
+        "frequency": "BIMONTHLY",
+        "amt_rule": "EXACT"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34FPJC2VR6
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=047da49e4ee8ce3b
+Request-Time=13
+Date=Mon, 08 Mar 2021 12:03:34 GMT
+Content-Type=application/json
+Content-Length=499
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34FPJC2VR6",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-03-24T23:59:59.999Z",
+        "custRefNo": "106717070688",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34FPJC2VR6",
+        "status": "FAILED",
+        "frequency": "FORTNIGHTLY",
+        "amt_rule": "EXACT"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34CEGS7BZ2
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=d5bafb167052e224
+Request-Time=20
+Date=Mon, 08 Mar 2021 12:03:42 GMT
+Content-Type=application/json
+Content-Length=492
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34CEGS7BZ2",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-03-16T23:59:59.999Z",
+        "custRefNo": "106717070699",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34CEGS7BZ2",
+        "status": "FAILED",
+        "frequency": "WEEKLY",
+        "amt_rule": "MAX"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk347L1SJGEZ
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=5b0344acbcacd8d8
+Request-Time=17
+Date=Mon, 08 Mar 2021 12:03:48 GMT
+Content-Type=application/json
+Content-Length=493
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk347L1SJGEZ",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-04-08T23:59:59.999Z",
+        "custRefNo": "106717070710",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk347L1SJGEZ",
+        "status": "FAILED",
+        "frequency": "MONTHLY",
+        "amt_rule": "MAX"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34TAGGBV2A
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=5bf0a0ba9925aa1d
+Request-Time=11
+Date=Mon, 08 Mar 2021 12:03:55 GMT
+Content-Type=application/json
+Content-Length=493
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34TAGGBV2A",
+    "status": "FAILED",
+    "errCode": "49",
+    "statusDesc": "Block fund flag is allowed only for one time mandate.",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-03-08T23:59:59.999Z",
+        "custRefNo": "106717070722",
+        "errCode": "49",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34TAGGBV2A",
+        "status": "FAILED",
+        "frequency": "DAILY",
+        "amt_rule": "MAX"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk3402W76FMT
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=ccb6a990a75111b3
+Request-Time=11
+Date=Mon, 08 Mar 2021 12:04:01 GMT
+Content-Type=application/json
+Content-Length=495
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk3402W76FMT",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-09-04T23:59:59.999Z",
+        "custRefNo": "106717070732",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk3402W76FMT",
+        "status": "FAILED",
+        "frequency": "QUARTERLY",
+        "amt_rule": "MAX"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34EN236D2K
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=f6c4f7004d117297
+Request-Time=18
+Date=Mon, 08 Mar 2021 12:04:08 GMT
+Content-Type=application/json
+Content-Length=496
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34EN236D2K",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-09-04T23:59:59.999Z",
+        "custRefNo": "106717070743",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34EN236D2K",
+        "status": "FAILED",
+        "frequency": "HALFYEARLY",
+        "amt_rule": "MAX"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34X9CV1HWA
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=d35b35e3aed6d289
+Request-Time=21
+Date=Mon, 08 Mar 2021 12:04:14 GMT
+Content-Type=application/json
+Content-Length=492
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34X9CV1HWA",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-09-04T23:59:59.999Z",
+        "custRefNo": "106717070755",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34X9CV1HWA",
+        "status": "FAILED",
+        "frequency": "YEARLY",
+        "amt_rule": "MAX"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34XNLE6V6M
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=2f39997f2e351c82
+Request-Time=11
+Date=Mon, 08 Mar 2021 12:04:22 GMT
+Content-Type=application/json
+Content-Length=495
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34XNLE6V6M",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-09-04T23:59:59.999Z",
+        "custRefNo": "106717070766",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34XNLE6V6M",
+        "status": "FAILED",
+        "frequency": "BIMONTHLY",
+        "amt_rule": "MAX"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34YTGTK5H6
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=5dc096cca7227b75
+Request-Time=9
+Date=Mon, 08 Mar 2021 12:04:28 GMT
+Content-Type=application/json
+Content-Length=497
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34YTGTK5H6",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-09-04T23:59:59.999Z",
+        "custRefNo": "106717070777",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34YTGTK5H6",
+        "status": "FAILED",
+        "frequency": "FORTNIGHTLY",
+        "amt_rule": "MAX"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34FITKS4G1
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=f24f1fdc8a4b50eb
+Request-Time=27
+Date=Mon, 08 Mar 2021 12:04:35 GMT
+Content-Type=application/json
+Content-Length=494
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34FITKS4G1",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-03-16T23:59:59.999Z",
+        "custRefNo": "106717070788",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34FITKS4G1",
+        "status": "FAILED",
+        "frequency": "WEEKLY",
+        "amt_rule": "EXACT"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34KAMTU0CW
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=81051fe9f58c99ff
+Request-Time=7
+Date=Mon, 08 Mar 2021 12:04:42 GMT
+Content-Type=application/json
+Content-Length=495
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34KAMTU0CW",
+    "status": "FAILED",
+    "errCode": "49",
+    "statusDesc": "Block fund flag is allowed only for one time mandate.",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-03-08T23:59:59.999Z",
+        "custRefNo": "106717070799",
+        "errCode": "49",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34KAMTU0CW",
+        "status": "FAILED",
+        "frequency": "DAILY",
+        "amt_rule": "EXACT"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk3461QMTSME
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=5acfd0e2a6b1fbc5
+Request-Time=14
+Date=Mon, 08 Mar 2021 12:04:50 GMT
+Content-Type=application/json
+Content-Length=492
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk3461QMTSME",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-03-16T23:59:59.999Z",
+        "custRefNo": "106717070811",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk3461QMTSME",
+        "status": "FAILED",
+        "frequency": "WEEKLY",
+        "amt_rule": "MAX"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34B7SII1K4
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=a532f790c2265183
+Request-Time=25
+Date=Mon, 08 Mar 2021 12:04:57 GMT
+Content-Type=application/json
+Content-Length=497
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34B7SII1K4",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-09-04T23:59:59.999Z",
+        "custRefNo": "106717070822",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34B7SII1K4",
+        "status": "FAILED",
+        "frequency": "FORTNIGHTLY",
+        "amt_rule": "MAX"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk340L8XBRE7
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=879cad918cfdf8b7
+Request-Time=10
+Date=Mon, 08 Mar 2021 12:05:04 GMT
+Content-Type=application/json
+Content-Length=495
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk340L8XBRE7",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-09-04T23:59:59.999Z",
+        "custRefNo": "106717070833",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk340L8XBRE7",
+        "status": "FAILED",
+        "frequency": "BIMONTHLY",
+        "amt_rule": "MAX"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34RTR23PLX
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=7eeb262c840ec48d
+Request-Time=12
+Date=Mon, 08 Mar 2021 12:05:10 GMT
+Content-Type=application/json
+Content-Length=492
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34RTR23PLX",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-09-04T23:59:59.999Z",
+        "custRefNo": "106717070844",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34RTR23PLX",
+        "status": "FAILED",
+        "frequency": "YEARLY",
+        "amt_rule": "MAX"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34O3N5J8BG
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=77e454b7af7bcd26
+Request-Time=14
+Date=Mon, 08 Mar 2021 12:05:16 GMT
+Content-Type=application/json
+Content-Length=496
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34O3N5J8BG",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-09-04T23:59:59.999Z",
+        "custRefNo": "106717070855",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34O3N5J8BG",
+        "status": "FAILED",
+        "frequency": "HALFYEARLY",
+        "amt_rule": "MAX"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk3462EQ7THJ
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=d09ce1ba96e22a30
+Request-Time=16
+Date=Mon, 08 Mar 2021 12:05:23 GMT
+Content-Type=application/json
+Content-Length=495
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk3462EQ7THJ",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-09-04T23:59:59.999Z",
+        "custRefNo": "106717070866",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk3462EQ7THJ",
+        "status": "FAILED",
+        "frequency": "QUARTERLY",
+        "amt_rule": "MAX"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34P66L5GUB
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=38892d75b659c98c
+Request-Time=12
+Date=Mon, 08 Mar 2021 12:05:30 GMT
+Content-Type=application/json
+Content-Length=493
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34P66L5GUB",
+    "status": "FAILED",
+    "errCode": "49",
+    "statusDesc": "Block fund flag is allowed only for one time mandate.",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-03-08T23:59:59.999Z",
+        "custRefNo": "106717070877",
+        "errCode": "49",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34P66L5GUB",
+        "status": "FAILED",
+        "frequency": "DAILY",
+        "amt_rule": "MAX"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34VM5VLA54
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=caa7cbb86cfa7238
+Request-Time=10
+Date=Mon, 08 Mar 2021 12:05:36 GMT
+Content-Type=application/json
+Content-Length=493
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34VM5VLA54",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-04-08T23:59:59.999Z",
+        "custRefNo": "106717070888",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34VM5VLA54",
+        "status": "FAILED",
+        "frequency": "MONTHLY",
+        "amt_rule": "MAX"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34UO1WSXF4
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=5040b3a0000ac25a
+Request-Time=8
+Date=Mon, 08 Mar 2021 12:05:43 GMT
+Content-Type=application/json
+Content-Length=494
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34UO1WSXF4",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-03-16T23:59:59.999Z",
+        "custRefNo": "106717070899",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34UO1WSXF4",
+        "status": "FAILED",
+        "frequency": "WEEKLY",
+        "amt_rule": "EXACT"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk346MKZY7UX
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=958f49606593b053
+Request-Time=11
+Date=Mon, 08 Mar 2021 12:05:50 GMT
+Content-Type=application/json
+Content-Length=495
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk346MKZY7UX",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-04-08T23:59:59.999Z",
+        "custRefNo": "106717070910",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk346MKZY7UX",
+        "status": "FAILED",
+        "frequency": "MONTHLY",
+        "amt_rule": "EXACT"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34MKCRIP2N
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=36896c7ff1044e00
+Request-Time=15
+Date=Mon, 08 Mar 2021 12:05:56 GMT
+Content-Type=application/json
+Content-Length=495
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34MKCRIP2N",
+    "status": "FAILED",
+    "errCode": "49",
+    "statusDesc": "Block fund flag is allowed only for one time mandate.",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-03-08T23:59:59.999Z",
+        "custRefNo": "106717070921",
+        "errCode": "49",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34MKCRIP2N",
+        "status": "FAILED",
+        "frequency": "DAILY",
+        "amt_rule": "EXACT"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34DQ7U9F9X
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=2802484ebe511c63
+Request-Time=12
+Date=Mon, 08 Mar 2021 12:06:05 GMT
+Content-Type=application/json
+Content-Length=497
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34DQ7U9F9X",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-09-04T23:59:59.999Z",
+        "custRefNo": "106717070932",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34DQ7U9F9X",
+        "status": "FAILED",
+        "frequency": "QUARTERLY",
+        "amt_rule": "EXACT"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34ZFTFTKQ8
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=40f1de0009dd210f
+Request-Time=20
+Date=Mon, 08 Mar 2021 12:06:15 GMT
+Content-Type=application/json
+Content-Length=498
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34ZFTFTKQ8",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-09-04T23:59:59.999Z",
+        "custRefNo": "106717070943",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34ZFTFTKQ8",
+        "status": "FAILED",
+        "frequency": "HALFYEARLY",
+        "amt_rule": "EXACT"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34DJQDVOIY
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=dd3cad6c21ad9afd
+Request-Time=13
+Date=Mon, 08 Mar 2021 12:06:25 GMT
+Content-Type=application/json
+Content-Length=494
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34DJQDVOIY",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-09-04T23:59:59.999Z",
+        "custRefNo": "106717070954",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34DJQDVOIY",
+        "status": "FAILED",
+        "frequency": "YEARLY",
+        "amt_rule": "EXACT"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+
+
+**********************************************************************************
+*********************************START********************************************
+
+API Endpoint : http://10.144.108.125:9002/jpb/v1/upi/mandate/transaction/JIOSTUtU5w5Ggmk87IfJmk34RGVNLZI8
+=============================================================
+Request Body : no request data
+=============================================================
+Headers : x-request-id=698dafd0f0f04be9
+Request-Time=15
+Date=Mon, 08 Mar 2021 12:06:35 GMT
+Content-Type=application/json
+Content-Length=497
+=============================================================
+Response Body : {
+    "txnId": "JIOSTUtU5w5Ggmk87IfJmk34RGVNLZI8",
+    "status": "FAILED",
+    "errCode": "48",
+    "statusDesc": "Mandate rule value is invalid for specified pattern",
+    "payeeBankName": "Jio Payments Bank limited",
+    "mandateDtls": {
+        "amount": "14.25",
+        "endDate": "2021-09-04T23:59:59.999Z",
+        "custRefNo": "106717070965",
+        "errCode": "48",
+        "name": "Payment Initiate",
+        "remarks": "mandate remarks",
+        "startDate": "2021-03-08T00:00:00.000Z",
+        "txnId": "JIOSTUtU5w5Ggmk87IfJmk34RGVNLZI8",
+        "status": "FAILED",
+        "frequency": "BIMONTHLY",
+        "amt_rule": "EXACT"
+    }
+}
+=============================================================
+
+**********************************************************************************
+*********************************END********************************************
+

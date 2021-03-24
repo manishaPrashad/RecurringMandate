@@ -1,0 +1,673 @@
+RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With balnk transation idRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledAt as back datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledEnd as back datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 1 but create date as FridayRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 8RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 9RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value in negativeRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Block Fund as TrueRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+transaction__mode other than 11RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+transaction__standingInstruction__revocable as FALSERecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With balnk transation idRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledAt as back datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledAt as future datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledEnd as back datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 1 but create date as FridayRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 8RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 9RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value in negativeRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Block Fund as TrueRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+transaction__mode other than 11RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+transaction__standingInstruction__revocable as FALSERecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With balnk transation idRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledAt as back datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledAt as future datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledEnd as back datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 1 but create date as FridayRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 8RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 9RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value in negativeRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Block Fund as TrueRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+transaction__mode other than 11RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+transaction__standingInstruction__revocable as FALSERecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With balnk transation idRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledAt as back datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledAt as future datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledEnd as back datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 1 but create date as FridayRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 8RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 9RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value in negativeRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With balnk transation idRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledAt as back datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledAt as future datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledEnd as back datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 1 but create date as FridayRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 8RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 9RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value in negativeRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Block Fund as TrueRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+transaction__mode other than 11RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+transaction__standingInstruction__revocable as FALSERecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With balnk transation idRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledAt as back datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledAt as future datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledEnd as back datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 1 but create date as FridayRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 8RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 9RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value in negativeRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Block Fund as TrueRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+transaction__mode other than 11RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+transaction__standingInstruction__revocable as FALSERecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With balnk transation idRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledAt as back datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledAt as future datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledEnd as back datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 1 but create date as FridayRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 8RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 9RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value in negativeRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Block Fund as TrueRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+transaction__mode other than 11RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+transaction__standingInstruction__revocable as FALSERecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With balnk transation idRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledAt as back datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledAt as future datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+With transaction__standingInstruction__scheduledEnd as back datedRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 1 but create date as FridayRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 8RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value as 9RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Rule Recurrence value in negativeRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+Block Fund as TrueRecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+transaction__mode other than 11RecurringMandateCreateByPayeeNegative_ON_MAX
+null
+{
+    "error": {
+        "message": "Invalid Access",
+        "code": "4008"
+    }
+}
+transaction__standingInstruction__revocable as FALSE
